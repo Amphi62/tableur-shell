@@ -1,2 +1,2 @@
 # tableur-shell
-Projet de Shell
+Projet nul de shell
