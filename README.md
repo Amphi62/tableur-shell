@@ -76,8 +76,8 @@ function AllFunct(){
   recup=`echo $1 | sed -e 's/^=?([a-zA-Z]+|[*+-/^])\(.+\)/\1/g'`
   
   [ recup = $1 ] && return 0
-  param=`echo $1 | | sed -e 's/^=?([a-zA-Z]+|[*+-/^])\((.+)(,.+)?\)/\2/g'` # vérifier exp reg
-  param2=`echo $1 | | sed -e 's/^=?([a-zA-Z]+|[*+-/^])\((.+),(.+)\)/\3/g'` # vérifier exp reg
+  param=`echo $1 | sed -e 's/^=?([a-zA-Z]+|[*+-/^])\((.+)(,.+)?\)/\2/g'` # vérifier exp reg
+  param2=`echo $1 | sed -e 's/^=?([a-zA-Z]+|[*+-/^])\((.+),(.+)\)/\3/g'` # vérifier exp reg
   # ajouter le cas pour les référence de la case
   [ $param = $1 ] && echo "Parameter 1 invalid" && return 0
   case "$recup" in 
@@ -92,4 +92,4 @@ function AllFunct(){
     *) echo "funct undefined" && return 0;;
   esac
 }
-    
+```   
