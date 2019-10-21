@@ -17,12 +17,12 @@ dans feuille résultat, faire :
 ```
 2e ligne : 
 ```Shell
-head -n 2 "$file_out" | tail -n 1``
+`head -n 2 "$file_out" | tail -n 1`
 ```
 ...
 ième ligne : 
 ```Shell
-head -n "$i" "$file_out" | tail -n 1``
+`head -n "$i" "$file_out" | tail -n 1`
 ```
 
 [Parcourir en colonne :]
