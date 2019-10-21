@@ -20,7 +20,7 @@ ligne1=`cat fiche_calc.txt | cut -d"$sep_col" -f1`
 2e ligne : 
 ```Shell
 sep_col='\n'
-ligne1=`cat fiche_calc.txt | cut -d"$sep_col" -f2
+ligne1=`cat fiche_calc.txt | cut -d"$sep_col" -f2`
 ```
 ...
 ième ligne : 
