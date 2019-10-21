@@ -11,7 +11,7 @@ copie feuille de calcul --> feuille résultat
 
 dans feuille résultat, faire :
 -> parcourir lignes par lignes
-[Parcourir lignes par lignes :]
+- Parcourir lignes par lignes :
 1ere ligne : 
 ```Shell
 `head -n 1 "$file_out" | tail -n 1`
@@ -26,7 +26,7 @@ ième ligne :
 `head -n "$i" "$file_out" | tail -n 1`
 ```
 
-[Parcourir en colonne :]
+- Parcourir en colonne :
 col 1 :
 ```Shell
 `echo $ligne | cut -d: -f1`
