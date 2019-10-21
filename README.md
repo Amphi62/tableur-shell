@@ -2,6 +2,7 @@
 
 ## Partie mise en place - Ajout de vérification
 - Vérifier que les séparateur de colonne et de ligne sont bien un seul caractère
+- Si des fichiers sont passés en fichiers externes ou internes, vérifier que ses fichiers existent bien dans le répertoire
 
 ## Partie fonction - transcription résultat dans nouveau fichier
 Passer de la feuille de calcul à la feuile résultat (cas de deux fichiers externes)
