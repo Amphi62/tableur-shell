@@ -26,8 +26,15 @@ ième ligne :
 ```
 
 [Parcourir en colonne :]
-col 1 => ... | cut -d: -f1
-col 2 => ... | cut -d: -f2
+col 1 :
+```Shell
+`echo $ligne | cut -d: -f1`
+```
+
+col 2 :
+```Shell
+`echo $ligne | cut -d: -f2`
+```
 ...
 
 -d: => on met le ":" car l'exemple traitait des ":" en séparateur de colonne, mais il s'agit bien de ça normalement
