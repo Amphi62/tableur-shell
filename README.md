@@ -14,27 +14,31 @@ dans feuille résultat, faire :
 - Parcourir lignes par lignes :
 1ere ligne : 
 ```Shell
-`head -n 1 "$file_out" | tail -n 1`
+sep_col='\n'
+ligne1=`cat fiche_calc.txt | cut -d"$sep_col" -f1`
 ```
 2e ligne : 
 ```Shell
-`head -n 2 "$file_out" | tail -n 1`
+sep_col='\n'
+ligne1=`cat fiche_calc.txt | cut -d"$sep_col" -f2
 ```
 ...
 ième ligne : 
 ```Shell
-`head -n "$i" "$file_out" | tail -n 1`
+sep_col='\n'
+i=2
+ligne=`cat fiche_calc.txt | cut -d"$sep_col" -f"$i"`
 ```
 
 - Parcourir en colonne :
 col 1 :
 ```Shell
-`echo $ligne | cut -d: -f1`
+col1=`echo $ligne | cut -d: -f1`
 ```
 
 col 2 :
 ```Shell
-`echo $ligne | cut -d: -f2`
+col2=`echo $ligne | cut -d: -f2`
 ```
 ...
 
