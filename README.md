@@ -105,6 +105,20 @@ done
 return somme
 ```
 
+- Moyenne :
+```Shell
+somme=`getSomme "$1" "$2"` 
+var1a=`echo $1 | sed -E 's/^l([0-9]+)c[0-9]+$/\1/g'`
+var2a=`echo $1 | sed -E 's/^l[0-9]+c([0-9]+)$/\1/g'`
+var1b=`echo $2 | sed -E 's/^l([0-9]+)c[0-9]+$/\1/g'`
+var2b=`echo $2 | sed -E 's/^l[0-9]+c([0-9]+)$/\1/g'`
+nb_col=`expr "$var2b" - "$var2a"`
+nb_col=`expr $nb_col + 1`
+nb_lig=`expr "$var1b" - "$var1a"`
+nb_elt=`expr "$nb_col" \* "$nb_lig"` 
+return "$nb_elt"
+```
+
 ## Partie fonction - récursivité
 Création d'une fonction permettant l'exécution de n'importe quelle fonction. Fonctionnement :
 - On passe notre case en paramètre. Dans notre fonction, on commence par récupérer le nom de la fonction ou de la référence de la case, puis nos éventuelles 2 paramètres. Si la récupération a raté, alors ça veut dire qu'il ne s'agit pas ni d'une fonction, ni d'une référence de case. 
