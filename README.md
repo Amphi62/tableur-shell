@@ -1,5 +1,19 @@
 # tableur-shell
 
+## Distribution rôle - Fonctions
+- [cel] => Nico (fait)
+- somme, mult, puissance, division et soustraction => ?
+- ln, e, sqrt => Nico (fait)
+- somme, moyenne => Nico (fait)
+- variance, ecarttype, mediane => ?
+- min, max => ?
+- concat, length => ?
+- subsitute => ?
+- size, lines => ?
+- shell => ?
+- display => ?
+
+
 ## Partie mise en place - Ajout de vérification
 - Vérifier que les séparateur de colonne et de ligne sont bien un seul caractère
 - Si des fichiers sont passés en fichiers externes ou internes, vérifier que ses fichiers existent bien dans le répertoire
