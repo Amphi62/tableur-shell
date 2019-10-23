@@ -10,8 +10,8 @@
 - concat, length => Florent chef de guerre murloc
 - subsitute => Paul
 - size, lines => Florenthauvin chef de guerre murloc
-- shell => ?
-- display => ?
+- shell => Nico
+- display => Nico
 
 
 ## Partie mise en place - Ajout de vérification
