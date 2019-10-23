@@ -2,14 +2,14 @@
 
 ## Distribution rôle - Fonctions
 - [cel] => Nico (fait)
-- somme, mult, puissance, division et soustraction => ?
+- somme, mult, puissance, division et soustraction => Paul
 - ln, e, sqrt => Nico (fait)
 - somme, moyenne => Nico (fait)
 - variance, ecarttype, mediane => ?
-- min, max => ?
-- concat, length => ?
+- min, max => Florent chef de guerre murloc
+- concat, length => Florent chef de guerre murloc
 - subsitute => ?
-- size, lines => ?
+- size, lines => Florenthauvin chef de guerre murloc
 - shell => ?
 - display => ?
 
