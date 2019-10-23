@@ -5,10 +5,10 @@
 - somme, mult, puissance, division et soustraction => Paul
 - ln, e, sqrt => Nico (fait)
 - somme, moyenne => Nico (fait)
-- variance, ecarttype, mediane => ?
+- variance, ecarttype, mediane => Paul
 - min, max => Florent chef de guerre murloc
 - concat, length => Florent chef de guerre murloc
-- subsitute => ?
+- subsitute => Paul
 - size, lines => Florenthauvin chef de guerre murloc
 - shell => ?
 - display => ?
