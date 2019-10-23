@@ -6,7 +6,7 @@
 - ln, e, sqrt => Nico (fait)
 - somme, moyenne => Nico (fait)
 - variance, ecarttype, mediane => Paul
-- min, max => Florent chef de guerre murloc
+- min, max => Florent chef de guerre murloc (fait)
 - concat, length => Florent chef de guerre murloc
 - subsitute => Paul
 - size, lines => Florenthauvin chef de guerre murloc
